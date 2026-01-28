@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_maven_azure_integration_1769592288506-push-trigger-input-set
+  identifier: Build_maven_azure_integration_1769592288506pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: appdemo
+  pipeline:
+    identifier: Build_maven_azure_integration_1769592288506
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
