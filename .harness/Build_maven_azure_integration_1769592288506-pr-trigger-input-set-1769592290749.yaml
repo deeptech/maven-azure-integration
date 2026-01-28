@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_maven_azure_integration_1769592288506-pr-trigger-input-set
+  identifier: Build_maven_azure_integration_1769592288506prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: appdemo
+  pipeline:
+    identifier: Build_maven_azure_integration_1769592288506
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
